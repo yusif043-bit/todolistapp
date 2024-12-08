@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/indexStyle.css">
+    <link rel="stylesheet" href="../assets/css/themes/indexTheme.css">
+</head>
+<body>
+    <div class="container p-3 rounded-4" id="mainbox" style="width: 450px;">
+        <form id="formt" action="">
+        <div class="top">
+            <button type="button" class="btn langbtn mb-3 fs-4">EN</button>
+            <button type="button" class="btn themebtn mb-3"></button>
+            <h1 class="text-center" id="userdatah1"></h1>
+        </div>
+        <div class="d-flex justify-content-between">
+            <span class="fs-2 fw-bold appName">Todo App</span>
+        </div>
+        <div class="search-bar d-flex flex-row gap-2 mb-2">
+            <input type="text" id="inpbox" class="input-group-text text-start ToDoInpPlaceholder" style="width: 350px;" placeholder="Add your new todo">
+            <button class="btn" id="add-btn" style="background-color: #8e49e8;"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#fff" version="1.1" id="Capa_1" width="24px" height="24px" viewBox="0 0 45.402 45.402" xml:space="preserve">
+                <g>
+                    <path d="M41.267,18.557H26.832V4.134C26.832,1.851,24.99,0,22.707,0c-2.283,0-4.124,1.851-4.124,4.135v14.432H4.141   c-2.283,0-4.139,1.851-4.138,4.135c-0.001,1.141,0.46,2.187,1.207,2.934c0.748,0.749,1.78,1.222,2.92,1.222h14.453V41.27   c0,1.142,0.453,2.176,1.201,2.922c0.748,0.748,1.777,1.211,2.919,1.211c2.282,0,4.129-1.851,4.129-4.133V26.857h14.435   c2.283,0,4.134-1.867,4.133-4.15C45.399,20.425,43.548,18.557,41.267,18.557z"/>
+                </g>
+                </svg>
+            </button>
+        </div>
+        <div class="todo-list">
+            <ul class="list-unstyled fs-5">
+                <!-- js -->
+            </ul>
+        </div>
+        <div class="last-sec mt-3">
+            <div class="fs-5 d-flex justify-content-between">
+                <div class="endtext pendingTasks">You have 0 pending tasks</div>
+                <button type="button" class="btn text-light clearBT" id="clearall-btn" style="background-color: #8e49e8;">Clear All</button>
+            </div>
+        </div>
+        </form>
+    </div>
+    <script src="../assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/themeforindex.js"></script>
+    <script src="../js/langScript.js" type="module"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>

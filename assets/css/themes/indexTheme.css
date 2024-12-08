@@ -1,0 +1,16 @@
+*{transition: 0.2s;}
+
+.dark-body{
+    background: linear-gradient(to right, #04619F , #000000);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.light-body{
+    background: linear-gradient(to right, #12c2e9 , #c471ed, #f64f59);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/themes/signlogTheme.css">
+</head>
+<body>
+    <div class="container rounded-4 shadow-lg p-4 d-flex justify-content-center" style="max-width: 35rem;" id="mainbox">
+        <form action="">
+            <div class="col-12 d-flex justify-content-between">
+                <button type="button" class="btn langbtn mb-3 fs-4">EN</button>
+                <button type="button" class="btn themebtn mb-3"></button>
+            </div>
+            <div class="col-12 mb-5">
+                <div class="title fs-2 text-center appName">Todo App LogIn</div>
+            </div>
+            <div class="col-12 mb-2">
+                <div class="title fs-4 text-center UsernameText">Username</div>
+            </div>
+            <div class="col-12 mb-4 d-flex justify-content-center">
+                <input type="text" id="username" class="input-group-text UsernameInpPlaceholder" name="" placeholder="Enter your Username">
+            </div>
+            <div class="col-12 mb-2">
+                <div class="title fs-4 text-center PasswordText">Pasword</div>
+            </div>
+            <div class="col-12 mb-4 d-flex justify-content-center">
+                <input type="text" class="input-group-text PasswordInpPlaceholder" name="" id="password" placeholder="Enter your Password">
+            </div>
+            <div class="col-12 d-flex justify-content-center">
+                <button class="btn btn-secondary p-3 SubmitBT" id="submitbtn">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="../assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/login.js" type="module"></script>
+    <script src="../js/themeforsignlog.js"></script>
+    <script src="../js/langScript.js" type="module"></script>
+</body>
+</html>

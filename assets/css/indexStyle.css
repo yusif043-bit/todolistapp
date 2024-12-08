@@ -1,0 +1,40 @@
+li {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 405px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.red {
+    background-color: red;
+}
+
+button {
+    transition: 0s !important;
+}
+
+@keyframes delete {
+    0%{transform: translate(0, 0); opacity: 100%;}
+    100%{transform: translate(100px, 100px); opacity: 1%;}
+}
+
+.del-animation{
+    animation: delete 0.5s linear infinite;
+}
+
+.themebtn img{
+    width: 50px;
+}
+
+.top {
+    .langbtn {
+        position: absolute;
+    }
+    .themebtn {
+        position: absolute;
+        transform: translateX(470%);
+    }
+}
